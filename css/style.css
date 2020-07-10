@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Istok+Web|Poppins:400,500');
 
 body {
-  background: #ffffff;
   font-family: 'Istok Web', sans-serif;
   overflow-x: hidden;
+}
+body, .navbar{
+animation: 10000ms ease-in-out infinite color-change;
 }
 
 html, body {
@@ -266,6 +268,17 @@ a:hover, a:active, a:focus {
   to {transform: rotate(360deg);}
 }
 
+@keyframes color-change {
+  0% {
+    background-color:#ffe7de;
+  }
+  50% {
+    background-color:#fcd1d7;
+  }
+  100% {
+    background-color: #ffe7de;
+  }
+}
 
 /*---------------------------------------
   MENU             
