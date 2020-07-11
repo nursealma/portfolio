@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
 }
 body, .navbar{
-animation: 10000ms ease-in-out infinite color-change;
+animation: 20000ms ease-in-out infinite color-change;
 }
 
 html, body {
@@ -272,7 +272,13 @@ a:hover, a:active, a:focus {
   0% {
     background-color:#ffe7de;
   }
+  25% {
+    background-color:#fcd1d7;
+  }
   50% {
+    background-color:#e9b1cd ;
+  }
+  75% {
     background-color:#fcd1d7;
   }
   100% {
